@@ -1,1 +1,26 @@
-
+@keyframes opening {
+    from{background-color:#ffffff;}
+    to{background-color: #00FA9A ;}
+}
+/* firefox */
+@-moz-keyframes opening {
+    from{background-color:#ffffff;}
+    to{background-color: #00FA9A ;}
+}
+/* Chrome and safari */
+@-webkit-keyframes opening {
+    from{background-color:#ffffff;}
+    to{background-color: #00FA9A ;}
+}
+body{
+    animation:opening 4s ease-in-out 1s;
+    /* Firefox */
+    -moz-animation:opening 4s ease-in-out 1s;
+    /* Chrome and safari */
+    -webkit-animation: opening 4s ease-in-out 1s;
+    background-color: #00FA9A;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
