@@ -1,16 +1,16 @@
 @keyframes opening {
-    from{background-color:#ffffff;}
-    to{background-color: #7fffd4 ;}
+    from{background-color:#7fffd4;}
+    to{background-color:#fff  ;}
 }
 /* firefox */
 @-moz-keyframes opening {
-    from{background-color:#ffffff;}
-    to{background-color: #7fffd4 ;}
+    from{background-color:#7fffd4;}
+    to{background-color: #fff ;}
 }
 /* Chrome and safari */
 @-webkit-keyframes opening {
-    from{background-color:#ffffff;}
-    to{background-color: #6fffd4 ;}
+    from{background-color:#7fffd4;}
+    to{background-color: #fff ;}
 }
 @keyframes textSlide{
     0%{
@@ -51,9 +51,14 @@ body{
     -moz-animation:opening 3s ease-out ;
     /* Chrome and safari */
     -webkit-animation: opening 3s ease-out ;
-    background-color: #7fffd4;
+    background-color: #fff;
+}
+h1, h2{
+    text-shadow:1px 2px 3px grey;
+    top: 20px;
 }
 h1{
+    
     position: relative;
     animation:textSlide 1.5s ease-out ;
     -moz-animation:textSlide 1.5s ease-out ;
@@ -62,5 +67,14 @@ h1{
     font-size: 35px;
     margin: 0;
     padding: 0;
+    
+    
+}
+h2{
+    position: relative;
+    animation:textSlide 3s ease-out ;
+    -moz-animation:textSlide 3s ease-out ;
+    -webkit-animation:textSlide 3s ease-out ;
+    text-align: center;
     
 }
