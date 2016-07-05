@@ -1,26 +1,63 @@
 @keyframes opening {
     from{background-color:#ffffff;}
-    to{background-color: #00FA9A ;}
+    to{background-color: #7fffd4 ;}
 }
 /* firefox */
 @-moz-keyframes opening {
     from{background-color:#ffffff;}
-    to{background-color: #00FA9A ;}
+    to{background-color: #7fffd4 ;}
 }
 /* Chrome and safari */
 @-webkit-keyframes opening {
     from{background-color:#ffffff;}
-    to{background-color: #00FA9A ;}
+    to{background-color: #6fffd4 ;}
+}
+@keyframes textSlide{
+    0%{
+        opacity:0;
+        left:-150px;
+    }
+    
+    100%{
+        opacity:1;
+        left:0px;
+    }
+}
+@-moz-keyframes textSlide{
+    0%{
+        opacity:0;
+        left:-150px;
+    }
+    
+    100%{
+        opacity:1;
+        left:0px;
+    }
+}
+@-webkit-keyframes textSlide{
+    0%{
+        opacity:0;
+        left:-150px;
+    }
+    
+    100%{
+        opacity:1;
+        left:0px;
+    }
 }
 body{
-    animation:opening 4s ease-in-out 1s;
+    animation:opening 2s ease-in-out ;
     /* Firefox */
-    -moz-animation:opening 4s ease-in-out 1s;
+    -moz-animation:opening 2s ease-in-out ;
     /* Chrome and safari */
-    -webkit-animation: opening 4s ease-in-out 1s;
-    background-color: #00FA9A;
+    -webkit-animation: opening 2s ease-in-out ;
+    background-color: #7fffd4;
 }
 h1{
+    position: relative;
+    animation:textSlide 2s ease-in-out ;
+    -moz-animation:textSlide 2s ease-in-out ;
+    -webkit-animation:textSlide 2s ease-in-out ;
     text-align: center;
     font-size: 35px;
 }
