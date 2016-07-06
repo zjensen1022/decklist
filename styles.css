@@ -1,16 +1,16 @@
 @keyframes opening {
-    from{background-color:#7fffd4;}
-    to{background-color:#fff  ;}
+    from{background-color:#777;}
+    to{background-color:#dfd  ;}
 }
 /* firefox */
 @-moz-keyframes opening {
-    from{background-color:#7fffd4;}
-    to{background-color: #fff ;}
+    from{background-color:#777;}
+    to{background-color: #dfd ;}
 }
 /* Chrome and safari */
 @-webkit-keyframes opening {
-    from{background-color:#7fffd4;}
-    to{background-color: #fff ;}
+    from{background-color:#777;}
+    to{background-color: #dfd ;}
 }
 @keyframes textSlide{
     0%{
@@ -51,30 +51,66 @@ body{
     -moz-animation:opening 3s ease-out ;
     /* Chrome and safari */
     -webkit-animation: opening 3s ease-out ;
-    background-color: #fff;
+    background-color: #dfd;
 }
 h1, h2{
-    text-shadow:1px 2px 3px grey;
-    top: 20px;
+    text-shadow:1px 1px 2px lightgrey;
+    top: 10px;
 }
 h1{
-    
+    display: block;
     position: relative;
-    animation:textSlide 1.5s ease-out ;
+    /*animation:textSlide 1.5s ease-out ;
     -moz-animation:textSlide 1.5s ease-out ;
-    -webkit-animation:textSlide 1.5s ease-out ;
+    -webkit-animation:textSlide 1.5s ease-out ;*/
     text-align: center;
     font-size: 35px;
     margin: 0;
-    padding: 0;
-    
+    padding: 5px;
+    font-family: "gil sans";
+    color: #444;
     
 }
 h2{
     position: relative;
-    animation:textSlide 3s ease-out ;
-    -moz-animation:textSlide 3s ease-out ;
-    -webkit-animation:textSlide 3s ease-out ;
+    animation:textSlide 1s ease-out ;
+    -moz-animation:textSlide 1s ease-out ;
+    -webkit-animation:textSlide 1s ease-out ;
     text-align: center;
+    margin: 0 0 15px 0;
+    font-family: "pt sans";
+    color: #444;
+    font-size: 32px;
     
+}
+ul li{
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    border: 1px solid #0a0;
+    margin: 8px 50px 8px 50px;
+    font-size: 16px;
+    box-shadow: 1px 1px 1px #888;
+    border-radius: 3px;
+    padding: 4px 7px;
+    font-family: "times new roman";
+    text-shadow: 1px 2px #ccc;
+    overflow: hidden;
+}
+ul li:first-child{
+    margin-top: 30px;
+}
+.top{
+    display: block;
+    
+}
+#list{
+    position: relative;
+    top: 10px;
+    display: block;
+    border: 1px solid #bdb;
+    border-radius: 6px;
+    margin: 15px 220px 15px 220px;
+    padding: 2px;
+    background-color: #bdb;
 }
