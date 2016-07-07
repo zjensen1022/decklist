@@ -1,16 +1,16 @@
 @keyframes opening {
     from{background-color:#777;}
-    to{background-color:#dfd  ;}
+    to{background-color: #fff;}
 }
 /* firefox */
 @-moz-keyframes opening {
     from{background-color:#777;}
-    to{background-color: #dfd ;}
+    to{background-color: #fff;}
 }
 /* Chrome and safari */
 @-webkit-keyframes opening {
     from{background-color:#777;}
-    to{background-color: #dfd ;}
+    to{background-color: #fff}
 }
 @keyframes textSlide{
     0%{
@@ -45,34 +45,41 @@
         left:0px;
     }
 }
+/*
+    color scheme will be complimentary
+    base hue: 240
+    compliment: 60
+    hsl(240, 100%, 50%)
+    hsl(240, 80%, 60%)
+    hsl(240, 80%, 30%)
+    hsl(60, 80%, 65%)
+    hsl(60, 80% 30%)
+*/
 body{
-    animation:opening 3s ease-out ;
+    /*animation:opening 3s ease-out ;
     /* Firefox */
-    -moz-animation:opening 3s ease-out ;
+    /*-moz-animation:opening 3s ease-out ;*/
     /* Chrome and safari */
-    -webkit-animation: opening 3s ease-out ;
-    background-color: #dfd;
-}
-h1, h2{
-    text-shadow:1px 1px 2px lightgrey;
-    top: 10px;
+    /*-webkit-animation: opening 3s ease-out ;*/
+    margin:0;
+   min-height:100%;
 }
 h1{
     display: block;
     position: relative;
-    /*animation:textSlide 1.5s ease-out ;
-    -moz-animation:textSlide 1.5s ease-out ;
-    -webkit-animation:textSlide 1.5s ease-out ;*/
     text-align: center;
     font-size: 35px;
-    margin: 0;
-    padding: 5px;
+    padding: 20px;
     font-family: "gil sans";
-    color: #444;
+    /*border: 1px solid hsl(240, 40%, 70%);*/
+    /*margin: 15px 220px 15px 220px;*/
+    background-color:hsl(60, 25%, 70%);
+    color:hsl(240, 60%, 25%);
     
 }
 h2{
     position: relative;
+    display: block;
     animation:textSlide 1s ease-out ;
     -moz-animation:textSlide 1s ease-out ;
     -webkit-animation:textSlide 1s ease-out ;
@@ -81,21 +88,22 @@ h2{
     font-family: "pt sans";
     color: #444;
     font-size: 32px;
+    top:10px;
     
 }
 ul li{
     position: relative;
     list-style-type: none;
     text-decoration: none;
-    border: 1px solid #0a0;
+    border: 1px solid hsl(240, 50%, 90%);
     margin: 8px 50px 8px 50px;
     font-size: 16px;
     box-shadow: 1px 1px 1px #888;
     border-radius: 3px;
     padding: 4px 7px;
     font-family: "times new roman";
-    text-shadow: 1px 2px #ccc;
     overflow: hidden;
+    background-color:hsl(240, 50%, 90%);
 }
 ul li:first-child{
     margin-top: 30px;
@@ -104,13 +112,22 @@ ul li:first-child{
     display: block;
     
 }
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 8px 50px 8px 90px;
+    padding: 4px 7px;
+    border: 1px solid hsl(60, 35%, 70%);
+    border-radius:5px;
+}
 #list{
     position: relative;
     top: 10px;
     display: block;
-    border: 1px solid #bdb;
-    border-radius: 6px;
+    /*border: 1px solid #bbb;*/
+    border-radius: 5px;
+    /*box-shadow: 1px 1px #ccc;*/
     margin: 15px 220px 15px 220px;
     padding: 2px;
-    background-color: #bdb;
+    /*background-color: hsl(60, 50%, 75%);*/
 }
