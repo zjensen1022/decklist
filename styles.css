@@ -47,13 +47,13 @@
 }
 /*
     color scheme will be complimentary
-    base hue: 240
-    compliment: 60
-    hsl(240, 100%, 50%)
-    hsl(240, 80%, 60%)
-    hsl(240, 80%, 30%)
-    hsl(60, 80%, 65%)
-    hsl(60, 80% 30%)
+    base hue: 225
+    compliment: 45
+    hsl(225, 100%, 50%)
+    hsl(225, 80%, 60%)
+    hsl(225, 80%, 30%)
+    hsl(45, 80%, 65%)
+    hsl(45, 80% 30%)
 */
 body{
     /*animation:opening 3s ease-out ;
@@ -65,17 +65,17 @@ body{
    min-height:100%;
 }
 h1{
+    border:1px solid hsl(45, 50%, 80%);
+    border-radius:3px;
     display: block;
     position: relative;
     text-align: center;
-    font-size: 35px;
+    font-size: 40px;
     padding: 20px;
-    font-family: "gil sans";
-    /*border: 1px solid hsl(240, 40%, 70%);*/
-    /*margin: 15px 220px 15px 220px;*/
-    background-color:hsl(60, 25%, 70%);
-    color:hsl(240, 60%, 25%);
-    
+    font-family: Times;
+    background-color:hsl(45, 50%, 80%);
+    color:hsl(225, 75%, 25%);
+    margin:0;
 }
 h2{
     position: relative;
@@ -95,15 +95,15 @@ ul li{
     position: relative;
     list-style-type: none;
     text-decoration: none;
-    border: 1px solid hsl(240, 50%, 90%);
+    border: 1px solid hsl(225, 50%, 85%);
     margin: 8px 50px 8px 50px;
     font-size: 16px;
     box-shadow: 1px 1px 1px #888;
     border-radius: 3px;
     padding: 4px 7px;
-    font-family: "times new roman";
+    font-family: sans-serif;
     overflow: hidden;
-    background-color:hsl(240, 50%, 90%);
+    background-color:hsl(225, 50%, 85%);
 }
 ul li:first-child{
     margin-top: 30px;
@@ -117,8 +117,9 @@ p{
     line-height: 1.5;
     margin: 8px 50px 8px 90px;
     padding: 4px 7px;
-    border: 1px solid hsl(60, 35%, 70%);
+    border: 1px solid hsl(45, 35%, 70%);
     border-radius:5px;
+    font-family:sans-serif;
 }
 #list{
     position: relative;
@@ -130,4 +131,7 @@ p{
     margin: 15px 220px 15px 220px;
     padding: 2px;
     /*background-color: hsl(60, 50%, 75%);*/
+}
+#images{
+    padding-top:10px;
 }
