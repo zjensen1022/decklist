@@ -1,3 +1,22 @@
 /* tertiary
-   hues: 0, 120, 240
+   hues: 60, 180, 300
 */
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+h1{
+    color: hsl(190, 100%, 20%);
+    background-color: hsl(0, 65%, 70%);
+    border-color:hsl(0, 65%, 70%);
+}
+p{
+    border: none;
+    box-shadow: none;
+}
+ul li{
+    border-color:hsl(190, 30%, 80%);
+    background-color:hsl(190, 30%, 80%);
+    text-align: center;
+    margin-left: 420px;
+    margin-right: 450px;
+}
