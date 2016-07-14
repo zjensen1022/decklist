@@ -1,0 +1,27 @@
+h1{
+    background-color:#fff;
+    color:#000;
+    border:none;
+    
+}
+ul li{
+    background-color:inherit;
+    border:none;
+    box-shadow:none;
+    
+}
+/**monocromatic color scheeme
+   hue: 120
+**/
+#list{
+    background-color: hsl(120, 20%, 70%);
+    text-align:center;
+    margin: 15px 240px;
+}
+.list2{
+    margin: 15px 240px;
+    background-color: hsl(120, 15%, 75%);
+}
+h2 + #text{
+    padding-bottom: 20px;
+}
