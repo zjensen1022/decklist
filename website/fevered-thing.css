@@ -1,0 +1,171 @@
+/* tertiary
+   hues: 60, 180, 300
+*/
+body{
+    background-color: hsl(0, 0%, 100%);
+}
+h1{
+    color: hsl(190, 100%, 20%);
+    background: none;
+    border:none;
+}
+h2, h3{
+    margin:0 auto;
+}
+p{
+    border: none;
+    box-shadow: none;
+}
+ul li{
+    border:none;
+    background:none;
+    text-align: center;
+    box-shadow:none;
+    margin-left:0px;
+}
+ul li:hover{
+    cursor:pointer;
+}
+#list{
+    background-color: hsl(190, 50%, 70%);
+}
+.list2{
+    background-color: hsl(0, 40%, 65%);
+    margin: 15px 220px 15px 220px;
+    padding: 2px;
+    position: relative;
+    top: 10px;
+    display: block;
+    border-radius:5px;
+}
+#link{
+    margin: 15px 0;
+    text-align:center;
+}
+#text{
+    position: relative;
+    top: 10px;
+    display: block;
+    border-radius: 5px;
+    margin: 15px 220px 15px 220px;
+    padding: 2px;
+    
+}
+#nav{
+    left:50px;
+    top:100px;
+}
+img{
+    display: none;
+    position:absolute;
+    left: 500px;
+    overflow: visible;
+}
+
+
+#deck :hover:nth-child(1) + .a{
+    display:block;
+}
+#deck :hover:nth-child(3) + .b{
+    display:block;
+}
+#deck :hover:nth-child(5) + .c{
+    display:block;
+}
+#deck :hover:nth-child(7) + .d{
+    display:block;
+}
+#deck :hover:nth-child(9) + .e{
+    display:block;
+}
+#deck :hover:nth-child(11) + .f{
+    display:block;
+}
+#deck :hover:nth-child(13) + .g{
+    display:block;
+}
+#deck :hover:nth-child(15) + .h{
+    display:block;
+}
+#deck :hover:nth-child(17) + .i{
+    display:block;
+}
+#deck :hover:nth-child(19) + .j{
+    display:block;
+}
+#deck :hover:nth-child(21) + .k{
+    display:block;
+}
+#deck :hover:nth-child(23) + .l{
+    display:block;
+}
+#deck :hover:nth-child(25) + .m{
+    display:block;
+}
+#deck :hover:nth-child(27) + .n{
+    display:block;
+}
+.la, .lb, .lc, .ld, .le, .lf, .lg, .lh, .li{
+    position: absolute;
+    top: 620px;
+    left: 500px;
+}
+
+#land :hover:nth-child(1) + .la{
+    display:block;
+}
+#land :hover:nth-child(3) + .lb{
+    display:block;
+}
+#land :hover:nth-child(5) + .lc{
+    display:block;
+}
+#land :hover:nth-child(7) + .ld{
+    display:block;
+}
+#land :hover:nth-child(9) + .le{
+    display:block;
+}
+#land :hover:nth-child(11) + .lf{
+    display:block;
+}
+#land :hover:nth-child(13) + .lg{
+    display:block;
+}
+#land :hover:nth-child(15) + .lh{
+    display:block;
+}
+#land :hover:nth-child(17) + .li{
+    display:block;
+}
+
+.sa, .sb, .sc, .sd, .se, .sf, .sg, .sh{
+    position:absolute;
+    top:30px;
+    left:500px;
+}
+
+#side :hover:nth-child(1) + .sa{
+    display:block;
+}
+#side :hover:nth-child(3) + .sb{
+    display:block;
+}
+#side :hover:nth-child(5) + .sc{
+    display:block;
+}
+#side :hover:nth-child(7) + .sd{
+    display:block;
+}
+#side :hover:nth-child(9) + .se{
+    display:block;
+}
+#side :hover:nth-child(11) + .sf{
+    display:block;
+}
+#side :hover:nth-child(13) + .sg{
+    display:block;
+}
+#side :hover:nth-child(15) + .sh{
+    display:block;
+}
