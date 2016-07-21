@@ -1,0 +1,18 @@
+nav{
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+button{
+    margin: 5px;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin: 0 auto;
+}
+footer{
+    text-align: center;
+}
