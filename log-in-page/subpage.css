@@ -3,3 +3,14 @@ a{
     padding: 0;
     border: none;
 }
+button{
+    border: 1px solid blue;
+    border-color: blue;
+    color: blue;
+    border-radius: 2px;
+    padding: 5px;
+}
+button:hover{
+    border-color: black;
+    color: black;
+}
