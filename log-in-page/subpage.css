@@ -1,7 +1,12 @@
+
 a{
     display: inline;
     padding: 0;
     border: none;
+}
+a:hover{
+    animation: none;
+    background-color: #fff;
 }
 button{
     border: 1px solid blue;
@@ -13,4 +18,5 @@ button{
 button:hover{
     border-color: black;
     color: black;
+
 }
